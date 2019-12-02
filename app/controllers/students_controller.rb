@@ -10,6 +10,7 @@ class StudentsController < ApplicationController
 
   def new
     @student = Student.new
+    # @student = Student.find(params[:id])
   end
 
   def create
